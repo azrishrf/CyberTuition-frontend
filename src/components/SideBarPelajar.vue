@@ -200,7 +200,7 @@ onBeforeUnmount(() => {
                 </div>
             </div>
             <dialog
-                class="z-50 bg-white px-3 pt-4 top-1/3 rounded-xl"
+                class="z-50 bg-white px-3 py-4 top-1/3 rounded-xl"
                 v-bind:open="isOpen"
             >
                 <div>

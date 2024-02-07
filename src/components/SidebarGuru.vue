@@ -109,7 +109,7 @@ async function logout() {
             Keluar</router-link
         >
         <dialog
-            class="z-50 w-2/6 bg-white px-3 pt-4 top-1/3 rounded-xl"
+            class="z-50 w-2/6 bg-white px-3 py-4 top-1/3 rounded-xl"
             v-bind:open="isOpen"
         >
             <div>
@@ -124,13 +124,13 @@ async function logout() {
 
                 <button
                     @click="logout()"
-                    class="bg-red text-white py-2 px-5 rounded-xl float-right mr-1 ml-3 mt-5 font-semibold text-xs"
+                    class="bg-red hover:bg-darkred text-white py-2 px-5 rounded-xl float-right mr-1 ml-3 mt-5 font-semibold text-xs"
                 >
                     Sahkan
                 </button>
                 <button
                     @click="toggleConfirmDelete()"
-                    class="text-black py-2 px-4 rounded-xl border-2 border-grey float-right mt-5 font-semibold text-xs"
+                    class="text-black hover:bg-slate-300 py-2 px-4 rounded-xl border-2 border-grey float-right mt-5 font-semibold text-xs"
                 >
                     Batalkan
                 </button>

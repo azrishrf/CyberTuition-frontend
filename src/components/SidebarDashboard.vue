@@ -327,7 +327,7 @@ async function logout() {
                 </button>
                 <button
                     @click="toggleConfirmDelete()"
-                    class="text-black py-2 px-4 rounded-xl border-2 border-grey float-right mt-5 font-semibold text-xs hover:bg-slate-100"
+                    class="text-black py-2 px-4 rounded-xl border-2 border-grey float-right mt-5 font-semibold text-xs hover:bg-slate-300"
                 >
                     Batalkan
                 </button>
